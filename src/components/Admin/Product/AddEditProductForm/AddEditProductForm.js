@@ -58,6 +58,7 @@ export function AddEditProductForm(props) {
       />
 
       <Form.Input
+        min="0"
         type="number"
         name="price"
         placeholder="Precio"
